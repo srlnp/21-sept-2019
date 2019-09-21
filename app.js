@@ -1,4 +1,5 @@
 var express=require("express");
+require("./db/db")
 var app=express();
 app.get("/",(req,res)=>{
 res.send("welcome mr s rama laxmi narayan patro");
